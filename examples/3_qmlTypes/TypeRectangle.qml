@@ -23,7 +23,7 @@ Window {
         y: 20
         width: 100
         height: 100
-        color: Qt.rgba(1, 0, 0, 0.2)
+        color: Qt.rgba(1, 0, 0, 0.8)
     }
 
     Rectangle {
@@ -40,11 +40,11 @@ Window {
         y: 20
         width: 100
         height: 100
-        radius: width/2
+        //radius: width/2
         gradient: Gradient {
             orientation: Gradient.Vertical
             GradientStop { position: 0.0; color: "aqua" }
-            GradientStop { position: 0.5; color: "peachpuff" }
+            //GradientStop { position: 0.5; color: "peachpuff" }
             GradientStop { position: 1.0; color: "teal" }
         }
         border { width: 3; color: "white" }
