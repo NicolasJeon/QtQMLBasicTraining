@@ -1,6 +1,6 @@
 ﻿import QtQuick
 import QtQuick.Window
 
-//PositionerRowColumn { }
+PositionerRowColumn { }
 // PositionerGrid { }
- PositionerFlow { }
+// PositionerFlow { }
