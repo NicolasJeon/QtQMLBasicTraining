@@ -5,7 +5,7 @@ import QtQuick.Window
 // TypeItemNested { }
 // TypeItemWrapped { }
 
-// TypeRectangle { }
+ TypeRectangle { }
 
 // TypeText { }
 // TypeTextAdv { }
@@ -15,7 +15,7 @@ import QtQuick.Window
 // TypeImageFileSystem { }
 // TypeImageResource { }
 // TypeImageProps { }
-TypeImageTransform { }
+//TypeImageTransform { }
 
 
 // TypeMouseArea { }

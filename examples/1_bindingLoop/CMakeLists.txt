@@ -30,6 +30,10 @@ set_target_properties(appbindingLoop PROPERTIES
     WIN32_EXECUTABLE TRUE
 )
 
+if(CMAKE_BUILD_TYPE STREQUAL "Debug")
+    set_target_properties(appbindingLoop PROPERTIES WIN32_EXECUTABLE FALSE)
+endif()
+
 target_link_libraries(appbindingLoop
     PRIVATE Qt6::Quick
 )
